@@ -1,0 +1,16 @@
+.gpt3_wgptArtc-smaleHead {
+  width: 38px;
+  height: 3px;
+  background: var(--leniear-text-color);
+  /* margin-bottom: 0.5rem ; */
+}
+.gpt3_wgptArtc-container .gpt3_wgptArtc-content h1{
+  color: white;
+  padding-bottom: 1rem;
+}
+.gpt3_wgptArtc-container .gpt3_wgptArtc-content p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--paragraph-b-color);
+}

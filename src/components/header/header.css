@@ -1,0 +1,147 @@
+.gpt3_header{
+  display: flex;
+  flex-direction: row;
+}
+
+.gpt3_header-main-content{
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.gpt3_header-h h1 {
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -2.48px;
+}
+
+.gpt3_header-paragraph {
+  padding: 2rem 0;
+}
+
+.gpt3_header-paragraph p {
+  color: var(--paragraph-b-color);
+  font-size: 20px;
+}
+
+.gtp3_header-inpute {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.gtp3_header-inpute input {
+  flex: 1;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  background: #052D56;
+  color: #3D6184;
+  font-size: 20px;
+  padding: 1rem 2rem;
+}
+
+.gtp3_header-inpute button {
+  border-radius: 0px 5px 5px 0px;
+  background: #FF4820;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.gpt3_header-opinion {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: #FFF;
+}
+
+.gpt3_header-opinion img {
+  width: 181.786px;
+  height: 38px;
+  flex-shrink: 0;
+}
+
+.gpt3_header-opinion p {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 37.611px;
+}
+
+.gpt3_header-ai-img{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gpt3_header-ai-img img{
+  width: 100%;
+  height: 100%;
+  margin-top: -5rem;
+}
+
+@media screen and ( max-width : 1100px){
+  .gpt3_header {
+    flex-direction: column;
+  }
+  .gpt3_header-ai-img img{
+    margin-top: 3rem;
+  }  
+}
+
+@media screen and ( min-width : 1600px){
+  .gpt3_header{
+    align-items: center;
+  }
+}
+
+@media screen and ( max-width : 700px){
+  .gpt3_header-opinion {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .gtp3_header-inpute input {
+    font-size: 13px;
+    padding: 1rem 1.5rem;
+  }
+  
+  .gtp3_header-inpute button {
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 1rem;
+  }
+  .gpt3_header-h h1 {
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .gpt3_header-paragraph p {
+    font-size: 16px;
+  }
+  .gpt3_header-opinion p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+
+@media screen and ( max-width : 400px){
+  .gtp3_header-inpute input {
+    font-size: 10px;
+    padding: 1rem 1.5rem;
+  }
+  
+  .gtp3_header-inpute button {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0 1rem;
+  }  
+}

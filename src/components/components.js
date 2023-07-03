@@ -1,0 +1,9 @@
+export { default as Article } from './article/Article';
+export { default as Navbar } from './navbar/Navbar';
+export { default as Brande } from './brande/Brande';
+export { default as Cta } from './cta/Cta';
+export { default as Feature } from './feature/Feature';
+export { default as Header } from './header/Header';
+export { default as Possibility } from './possibility/Possibility';
+export { default as Wgpt3 } from './wgpt3/Wgpt3';
+export { default as Footer } from './footer/Footer';

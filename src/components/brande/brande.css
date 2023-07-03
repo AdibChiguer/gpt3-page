@@ -1,0 +1,14 @@
+.gpt3_Brande-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+
+.gpt3_Brande-container img {
+  line-height: 20px;
+  margin: 1rem 2rem ;
+  cursor: pointer;
+}

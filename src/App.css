@@ -1,0 +1,60 @@
+.section_Padding {
+  padding: 2rem 4rem;
+}
+
+body{
+  background-color: #040c18;
+}
+
+body::-webkit-scrollbar{
+  width: 5px;
+}
+body::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #4472af;
+  border-radius: 10px;
+}
+
+
+.Navbar-Header_section {
+  background: -moz-radial-gradient(circle at 6% 16%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%); 
+  background: -webkit-radial-gradient(circle at 6% 16%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -o-radial-gradient(circle at 6% 16%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: -ms-radial-gradient(circle at 6% 16%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background: radial-gradient(circle at 6% 16%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+  background-size: 100% 100%;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and ( max-width : 1100px){
+  .section_Padding {
+    padding: 1rem 2rem;
+  }
+}
